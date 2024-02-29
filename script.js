@@ -3,7 +3,7 @@ const checkBtn = document.getElementById("check-btn");
 const clearBtn = document.getElementById("clear-btn");
 const results= document.getElementById("results-div");
 
-const firstRegex = /^1 \d{3}-\d{3}-\d{4}$/
+const firstRegex = /^(1\s?)?(\d{3}|\(\d{3}\))[\-\s]?\d{3}[\-\s]?\d{4}$/
 
 const regexArray = [firstRegex];
 
